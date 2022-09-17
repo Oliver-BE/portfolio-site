@@ -12,6 +12,7 @@ interface InterestsSectionQueryResult {
             interests: {
                 image: ImageObject;
                 label: string;
+                link: string;
             }[];
         }[];
     };
@@ -37,6 +38,7 @@ export const useLocalDataSource = (): InterestsSectionQueryResult => {
                             }
                         }
                         label
+                        link
                     }
                 }
             }

@@ -1,60 +1,68 @@
 {
     "interests": [
         {
-            "label": "Quick and Easy Setup",
+            "label": "Clojure",
             "image": {
-                "src": "../../images/joystick.png",
+                "src": "../../images/clojure.png",
                 "alt": ""
-            }
+            },
+            "link": "https://clojure.org/"
         },
         {
-            "label": "Content via Markdown",
+            "label": "ClojureScript",
             "image": {
-                "src": "../../images/notebook.png",
+                "src": "../../images/cs.png",
                 "alt": ""
-            }
+            },
+            "link": "https://clojurescript.org/"
         },
         {
-            "label": "Responsive Design",
+            "label": "React",
             "image": {
-                "src": "../../images/nail-polish.png",
+                "src": "../../images/react.png",
                 "alt": ""
-            }
+            },
+            "link": "https://reactjs.org/"
         },
         {
-            "label": "Medium Integration",
+            "label": "JavaScript",
             "image": {
-                "src": "../../images/medium.png",
+                "src": "../../images/js.png",
                 "alt": ""
-            }
+            },
+            "link": "https://www.javascript.com/"
         },
         {
-            "label": "Animations",
+            "label": "R",
             "image": {
-                "src": "../../images/gem-stone.png",
+                "src": "../../images/r.png",
                 "alt": ""
-            }
+            },
+            "link": "https://www.r-project.org/"
         },
         {
-            "label": "PWA (Offline Support)",
+            "label": "Java",
             "image": {
-                "src": "../../images/mobile-phone.png",
+                "src": "../../images/java.png",
                 "alt": ""
-            }
+            },
+            "link": "https://www.java.com/en/"
         },
         {
-            "label": "Modern Tech-Stack",
+            "label": "Python",
             "image": {
-                "src": "../../images/gatsby.png",
+                "src": "../../images/python.png",
                 "alt": ""
-            }
+            },
+            "link": "https://www.python.org/"
         },
         {
-            "label": "Blazing Fast",
+            "label": "C++",
             "image": {
-                "src": "../../images/high-voltage.png",
+                "src": "../../images/cpp.png",
                 "alt": ""
-            }
+            },
+            "link": "https://isocpp.org/"
         }
     ],
     "button": {

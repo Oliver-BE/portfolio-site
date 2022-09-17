@@ -23,6 +23,7 @@ interface AnimationProps {
     fillMode?: AnimationFillMode;
     delay?: number;
     duration?: number;
+    onClickHandler?: () => void;
     iterationCount?: number;
     className?: string;
     style?: React.CSSProperties;
@@ -46,6 +47,7 @@ export function Animation(props: AnimationProps): React.ReactElement {
             ref={ref}
             className={props.className}
             onAnimationEnd={props.onAnimationEnd}
+            onClick={ props.onClickHandler}
             style={
                 onScreen
                     ? {
