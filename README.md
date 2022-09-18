@@ -1,7 +1,3 @@
-<img src="screenshot.png" alt="Gatsby Theme Portfolio Minimal Screenshot" width="700" />
-
----
-
 # Gatsby Theme Portfolio Minimal
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ca0e691f-4d6f-4a70-8d91-e94a0843c7e2/deploy-status)](https://app.netlify.com/sites/gatsby-theme-portfolio-minimal/deploys) [![Latest Version](https://img.shields.io/npm/v/gatsby-theme-portfolio-minimal/latest.svg)](https://www.npmjs.com/package/gatsby-theme-portfolio-minimal)

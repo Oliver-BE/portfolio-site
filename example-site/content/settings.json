@@ -3,12 +3,12 @@
         "language": "en",
         "siteUrl": "https://gatsby-theme-portfolio-minimal.netlify.app/",
         "thumbnail": "../content/images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "title": "Gatsby Theme Portfolio Minimal",
-        "titleTemplate": "%s · A Gatsby Theme",
-        "description": "A Gatsby Theme to create a clean one-page portfolio with Markdown content.",
-        "author": "Konstantin Münster",
+        "title": "Oliver's Portfolio",
+        "titleTemplate": "%s · Portfolio",
+        "description": "Oliver Baldwin Edwards' portfolio.",
+        "author": "Oliver Baldwin Edwards",
         "avatar": "../content/images/gatsby.png",
-        "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+        "bio": "Oliver is currently a Software Engineer at Spatial Informatics Group, an environmental think-tank.",
         "social": {
             "behance": "https://behance.com",
             "github": "https://github.com/Oliver-BE",
@@ -25,7 +25,7 @@
                 { "label": "About", "url": "/#about" },
                 { "label": "Blog", "url": "/blog" },
                 { "label": "Features", "url": "/#features" },
-                { "label": "Github", "url": "/#github" }
+                { "label": "Contact", "url": "/#contact" }
             ],
             "ctaButton": { "openNewTab": true, "label": "Resume", "url": "/resume.pdf" },
             "footer": [
