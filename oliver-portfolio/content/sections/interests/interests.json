@@ -25,6 +25,14 @@
             "link": "https://reactjs.org/"
         },
         {
+            "label": "Reagent",
+            "image": {
+                "src": "../../images/reagent.png",
+                "alt": ""
+            },
+            "link": "https://github.com/reagent-project/reagent"
+        },
+        {
             "label": "JavaScript",
             "image": {
                 "src": "../../images/js.png",
@@ -39,6 +47,14 @@
                 "alt": ""
             },
             "link": "https://www.r-project.org/"
+        },
+        {
+            "label": "R Shiny",
+            "image": {
+                "src": "../../images/r-shiny.png",
+                "alt": ""
+            },
+            "link": "https://shiny.rstudio.com/"
         },
         {
             "label": "Java",
@@ -63,6 +79,30 @@
                 "alt": ""
             },
             "link": "https://isocpp.org/"
+        },
+        {
+            "label": "Mapbox",
+            "image": {
+                "src": "../../images/mapbox.png",
+                "alt": ""
+            },
+            "link": "https://www.mapbox.com/"
+        },
+        {
+            "label": "GeoServer",
+            "image": {
+                "src": "../../images/geoserver.jpeg",
+                "alt": ""
+            },
+            "link": "https://geoserver.org/"
+        },
+        {
+            "label": "PostgreSQL",
+            "image": {
+                "src": "../../images/postgres.png",
+                "alt": ""
+            },
+            "link": "https://www.postgresql.org/"
         }
     ],
     "button": {

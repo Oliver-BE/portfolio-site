@@ -47,7 +47,7 @@ export function Animation(props: AnimationProps): React.ReactElement {
             ref={ref}
             className={props.className}
             onAnimationEnd={props.onAnimationEnd}
-            onClick={ props.onClickHandler}
+            onClick={props.onClickHandler}
             style={
                 onScreen
                     ? {

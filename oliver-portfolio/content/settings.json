@@ -2,12 +2,12 @@
     "siteMetadata": {
         "language": "en",
         "siteUrl": "https://gatsby-theme-portfolio-minimal.netlify.app/",
-        "thumbnail": "../content/images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "thumbnail": "../content/images/favicon.png",
         "title": "Oliver's Portfolio",
-        "titleTemplate": "%s · Portfolio",
+        "titleTemplate": "%s · Oliver",
         "description": "Oliver Baldwin Edwards' portfolio.",
         "author": "Oliver Baldwin Edwards",
-        "avatar": "../content/images/gatsby.png",
+        "avatar": "../content/images/oliver-headshot.jpeg",
         "bio": "Oliver is currently a Software Engineer at Spatial Informatics Group, an environmental think-tank.",
         "social": {
             "behance": "https://behance.com",
@@ -23,11 +23,13 @@
         "navigation": {
             "header": [
                 { "label": "About", "url": "/#about" },
-                { "label": "Blog", "url": "/blog" },
                 { "label": "Features", "url": "/#features" },
                 { "label": "Contact", "url": "/#contact" }
             ],
-            "ctaButton": { "openNewTab": true, "label": "Resume", "url": "/resume.pdf" },
+            "ctaButton": [
+                { "openNewTab": true, "label": "Resume", "url": "/resume.pdf" },
+                { "openNewTab": false, "label": "Blog", "url": "/blog" }
+            ],
             "footer": [
                 { "label": "Privacy", "url": "/privacy" },
                 { "label": "Imprint", "url": "/imprint" }

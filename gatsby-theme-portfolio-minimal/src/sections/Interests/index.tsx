@@ -18,7 +18,7 @@ export function InterestsSection(props: PageSection): React.ReactElement {
 
     function loadMoreHandler() {
         setShownInterests(data.interests.length);
-        console.log("data are", data)
+        console.log('data are', data);
     }
 
     return (
@@ -27,16 +27,23 @@ export function InterestsSection(props: PageSection): React.ReactElement {
                 <div className={classes.Interests}>
                     {data.interests.slice(0, shownInterests).map((interest, key) => {
                         return (
-                                <Animation onClickHandler={() => window.open(interest.link)} style={{cursor: "pointer"}} key={key} className={classes.Interest} type="scaleIn" delay={key * 100}>
-                                    {interest.image.src && (
-                                        <GatsbyImage
-                                            image={interest.image.src.childImageSharp.gatsbyImageData}
-                                            className={classes.Icon}
-                                            alt={interest.image.alt || `Interest ${interest.label}`}
-                                        />
-                                    )}{' '}
-                                    {interest.label}
-                                </Animation>
+                            <Animation
+                                onClickHandler={() => window.open(interest.link)}
+                                style={{ cursor: 'pointer' }}
+                                key={key}
+                                className={classes.Interest}
+                                type="scaleIn"
+                                delay={key * 100}
+                            >
+                                {interest.image.src && (
+                                    <GatsbyImage
+                                        image={interest.image.src.childImageSharp.gatsbyImageData}
+                                        className={classes.Icon}
+                                        alt={interest.image.alt || `Interest ${interest.label}`}
+                                    />
+                                )}{' '}
+                                {interest.label}
+                            </Animation>
                         );
                     })}
                     {shouldShowButton && shownInterests < data.interests.length && (
