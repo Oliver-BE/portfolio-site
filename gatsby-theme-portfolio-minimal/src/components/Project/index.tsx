@@ -29,6 +29,8 @@ interface ProjectProps {
     index: number;
 }
 
+//  TODO: allow project.descriptions to have multiple paragraphs as well as links/bold text. See the about page for inspiration
+
 export function Project(props: ProjectProps): React.ReactElement {
     const isDesktopBreakpoint = useMediaQuery('(min-width: 992px)');
 

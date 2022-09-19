@@ -13,6 +13,8 @@ interface IconProps {
     color?: string;
 }
 
+//  TODO: add a PDF icon
+
 export function Icon(props: IconProps): React.ReactElement | null {
     switch (props.name.toLowerCase()) {
         case 'external':

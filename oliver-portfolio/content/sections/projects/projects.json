@@ -2,40 +2,44 @@
     "projects": [
         {
             "visible": true,
-            "category": "🕹️ EASY AND QUICK SETUP",
-            "title": "Add content and deploy!",
-            "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-            "tags": ["Content Integration", "Ready-2-Deploy"],
+            "category": "",
+            "title": "Ring of Fire",
+            "description": "A parallelized Genetic Program for evolving rules to describe a cellular automaton based wildfire simulation with an error function based on data from Canadian wildfires. Both the genetic program and the wildfire simulator were written in Clojure by @icaruso21, @MGlusker, and myself.",
+            "tags": ["Clojure", "Genetic Program"],
             "image": {
-                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-                "alt": "Quick Setup",
-                "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+                "src": "../../images/fire-scar-comparison.png",
+                "alt": "Ring of Fire",
+                "linkTo": "https://github.com/Oliver-BE/ring-of-fire"
             },
             "links": [
                 {
                     "type": "github",
-                    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-                },
-                {
-                    "type": "external",
-                    "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+                    "url": "https://github.com/Oliver-BE/ring-of-fire"
                 }
             ]
         },
         {
             "visible": true,
-            "category": "🧰 EXTENDABLE LAYOUT",
-            "title": "Add more sections!",
-            "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-            "tags": ["Custom Sections", "Easy-2-Use"],
+            "category": "",
+            "title": "Classifying Fake News",
+            "description": "A formal report written in R that uses Natural Language Processing and Machine Learning to classify news article claims as either true or false. This project used a dataset of 1,911 unique PolitiFact claims and their associated truth ratings. Features were extracted from each claim using a bag-of-n-grams model with tf-idf as the scoring metric (the vocabulary size was first reduced using using lemmatization and stop word removal among other text cleaning procedures). Seven machine learning classification models (including a random forest, a multilayer perceptron, and a recurrent neural network) were fit and a maximum classification accuracy of 71% was achieved.",
+            "tags": ["Natural Language Processing", "Machine Learning", "R", "Keras"],
             "image": {
-                "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-                "alt": "Extendable Layout"
+                "src": "../../images/fake-news.png",
+                "alt": "Fake News"
             },
             "links": [
                 {
                     "type": "github",
-                    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+                    "url": "https://github.com/Oliver-BE/fake-news-nlp"
+                },
+                {
+                    "type": "external",
+                    "url": "https://oliver-be.ml/fake-news-nlp/"
+                },
+                {
+                    "type": "external",
+                    "url": "https://oliver-be.ml/pdf/fake-news-nlp.pdf"
                 }
             ]
         }
