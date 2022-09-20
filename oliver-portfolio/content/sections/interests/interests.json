@@ -41,22 +41,6 @@
             "link": "https://www.javascript.com/"
         },
         {
-            "label": "R",
-            "image": {
-                "src": "../../images/r.png",
-                "alt": ""
-            },
-            "link": "https://www.r-project.org/"
-        },
-        {
-            "label": "R Shiny",
-            "image": {
-                "src": "../../images/r-shiny.png",
-                "alt": ""
-            },
-            "link": "https://shiny.rstudio.com/"
-        },
-        {
             "label": "Java",
             "image": {
                 "src": "../../images/java.png",
@@ -71,6 +55,22 @@
                 "alt": ""
             },
             "link": "https://www.python.org/"
+        },
+        {
+            "label": "R",
+            "image": {
+                "src": "../../images/r.png",
+                "alt": ""
+            },
+            "link": "https://www.r-project.org/"
+        },
+        {
+            "label": "R Shiny",
+            "image": {
+                "src": "../../images/r-shiny.png",
+                "alt": ""
+            },
+            "link": "https://shiny.rstudio.com/"
         },
         {
             "label": "C++",
@@ -103,11 +103,27 @@
                 "alt": ""
             },
             "link": "https://www.postgresql.org/"
+        },
+        {
+            "label": "D3.js",
+            "image": {
+                "src": "../../images/d3.jpeg",
+                "alt": ""
+            },
+            "link": "https://d3js.org/"
+        },
+        {
+            "label": "Git",
+            "image": {
+                "src": "../../images/git.png",
+                "alt": ""
+            },
+            "link": "https://git-scm.com/"
         }
     ],
     "button": {
         "visible": true,
         "label": "+ Load More",
-        "initiallyShownInterests": 5
+        "initiallyShownInterests": 8
     }
 }

@@ -12,6 +12,6 @@
     "button": {
         "visible": true,
         "label": "",
-        "initiallyShownInterests": 5
+        "initiallyShownInterests": 8
     }
 }

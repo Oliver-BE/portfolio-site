@@ -1,4 +1,5 @@
 import React from 'react';
+import { IconPdf } from './IconPdf';
 import { IconBehance } from './IconBehance';
 import { IconExternal } from './IconExternal';
 import { IconGithub } from './IconGithub';
@@ -13,10 +14,10 @@ interface IconProps {
     color?: string;
 }
 
-//  TODO: add a PDF icon
-
 export function Icon(props: IconProps): React.ReactElement | null {
     switch (props.name.toLowerCase()) {
+        case 'pdf':
+            return <IconPdf color={props.color} />;
         case 'external':
             return <IconExternal color={props.color} />;
         case 'behance':

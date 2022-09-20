@@ -26,7 +26,8 @@
             "tags": ["Natural Language Processing", "Machine Learning", "R", "Keras"],
             "image": {
                 "src": "../../images/fake-news.png",
-                "alt": "Fake News"
+                "alt": "Fake News",
+                "linkTo": "https://oliver-be.ml/fake-news-nlp/"
             },
             "links": [
                 {
@@ -34,12 +35,78 @@
                     "url": "https://github.com/Oliver-BE/fake-news-nlp"
                 },
                 {
-                    "type": "external",
-                    "url": "https://oliver-be.ml/fake-news-nlp/"
+                    "type": "pdf",
+                    "url": "/fake-news-nlp.pdf"
                 },
                 {
                     "type": "external",
-                    "url": "https://oliver-be.ml/pdf/fake-news-nlp.pdf"
+                    "url": "https://oliver-be.ml/fake-news-nlp/"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "",
+            "title": "Intellage: An Intelligent Photo Collage Creator",
+            "description": "Written entirely from scratch in Java by @icaruso21 and myself, Intellage recreates a desired photo from a user-specified folder of images (both are selected via a built-in GUI). Intellage was used as an exemplar of a final project in subsequent semesters of the introductory computer science class for which it was written. The following outputs from Intellage each utilized an input folder containing 26,000 stock images.",
+            "tags": ["Java"],
+            "image": {
+                "src": "../../images/intellage.jpg",
+                "alt": "Intellage",
+                "linkTo": "https://github.com/Oliver-BE/intellage"
+            },
+            "links": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/Oliver-BE/intellage"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "",
+            "title": "Visualizing Sorting Algorithms using Empirical",
+            "description": "A web app written entirely in C++ that utilizes the Empirical D3-wrapper that I helped to write as a Summer 2020 WAVES participant. This project is meant to serve as a demo for how the new D3-wrapper can be used with Empirical (a library for building web interfaces with C++ and Emscripten) to create powerful web apps. Along with @elizabethcarney, @amlalejini, and @emilydolson I spent the summer creating a C++ wrapper for D3.js, a JavaScript library that allows for custom-made, interactive visualizations. We began the process of overhauling Empirical’s web visualization support for use in the next version of Avida-ED (an award-winning piece of digital evolution education software).",
+            "tags": ["C++", "JavaScript", "D3.js"],
+            "image": {
+                "src": "../../images/empirical.png",
+                "alt": "Intellage",
+                "linkTo": "https://oliver-be.ml/sorting-algorithms-d3/"
+            },
+            "tags": ["C++", "JavaScript", "D3.js"],
+            "links": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/Oliver-BE/sorting-algorithms-d3"
+                },
+                {
+                    "type": "external",
+                    "url": "https://oliver-be.ml/sorting-algorithms-d3/"
+                },
+                {
+                    "type": "pdf",
+                    "url": "https://mmore500.com/waves/blog/d3-sorting.html"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "",
+            "title": "Future Obscura",
+            "description": "A website I created as a part of my final photography portfolio during my independent sudy.",
+            "image": {
+                "src": "../../images/future-obscura.jpg",
+                "alt": "Intellage",
+                "linkTo": "https://oliver-be.ml/future-obscura/"
+            },
+            "links": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/Oliver-BE/future-obscura"
+                },
+                {
+                    "type": "external",
+                    "url": "https://oliver-be.ml/future-obscura/"
                 }
             ]
         }
