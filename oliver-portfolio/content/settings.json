@@ -32,8 +32,6 @@
                 { "openNewTab": false, "label": "Blog", "url": "/blog" }
             ],
             "footer": [
-                { "label": "Privacy", "url": "/privacy" },
-                { "label": "Imprint", "url": "/imprint" }
             ]
         },
         "featureToggles": {
