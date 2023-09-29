@@ -27,7 +27,7 @@
             "image": {
                 "src": "../../images/fake-news.png",
                 "alt": "Fake News",
-                "linkTo": "https://oliver-be.ml/fake-news-nlp/"
+                "linkTo": "https://oliver-be.github.io/fake-news-nlp/"
             },
             "links": [
                 {
@@ -40,7 +40,7 @@
                 },
                 {
                     "type": "external",
-                    "url": "https://oliver-be.ml/fake-news-nlp/"
+                    "url": "https://oliver-be.github.io/fake-news-nlp/"
                 }
             ]
         },
@@ -70,8 +70,8 @@
             "tags": ["C++", "JavaScript", "D3.js"],
             "image": {
                 "src": "../../images/empirical.png",
-                "alt": "Intellage",
-                "linkTo": "https://oliver-be.ml/sorting-algorithms-d3/"
+                "alt": "Sorting Algorithms",
+                "linkTo": "https://oliver-be.github.io/sorting-algorithms-d3/"
             },
             "tags": ["C++", "JavaScript", "D3.js"],
             "links": [
@@ -81,7 +81,7 @@
                 },
                 {
                     "type": "external",
-                    "url": "https://oliver-be.ml/sorting-algorithms-d3/"
+                    "url": "https://oliver-be.github.io/sorting-algorithms-d3/"
                 },
                 {
                     "type": "pdf",
@@ -96,8 +96,8 @@
             "description": "A website I created as a part of my final photography portfolio during my independent sudy.",
             "image": {
                 "src": "../../images/future-obscura.jpg",
-                "alt": "Intellage",
-                "linkTo": "https://oliver-be.ml/future-obscura/"
+                "alt": "Future Obscura",
+                "linkTo": "https://oliver-be.github.io/future-obscura/"
             },
             "links": [
                 {
@@ -106,7 +106,7 @@
                 },
                 {
                     "type": "external",
-                    "url": "https://oliver-be.ml/future-obscura/"
+                    "url": "https://oliver-be.github.io/future-obscura/"
                 }
             ]
         }
