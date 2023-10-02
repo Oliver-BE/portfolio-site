@@ -31,8 +31,7 @@
                 { "openNewTab": true, "label": "Resume", "url": "/resume.pdf" },
                 { "openNewTab": false, "label": "Blog", "url": "/blog" }
             ],
-            "footer": [
-            ]
+            "footer": []
         },
         "featureToggles": {
             "useDarkModeAsDefault": false,

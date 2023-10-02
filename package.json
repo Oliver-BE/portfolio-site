@@ -34,5 +34,8 @@
         "*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)": [
             "yarn format"
         ]
+    },
+    "dependencies": {
+        "gatsby-plugin-netlify": "^5.1.1"
     }
 }

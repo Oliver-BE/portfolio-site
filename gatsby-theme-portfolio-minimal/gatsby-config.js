@@ -108,5 +108,6 @@ module.exports = (options) => ({
               }
             : null,
         `gatsby-plugin-offline`,
+        `gatsby-plugin-netlify`, // Added to integrate with Netlify deployment
     ].filter((plugin) => plugin !== null),
 });
