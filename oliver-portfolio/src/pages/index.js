@@ -15,7 +15,7 @@ export default function IndexPage() {
         <>
             <Seo title="Oliver Baldwin Edwards" />
             {/* To turn on the splash screen animation, change the prop below */}
-            <Page useSplashScreenAnimation={false}>
+            <Page useSplashScreenAnimation={true}>
                 <HeroSection sectionId="hero" />
                 {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Blog', 'Medium']} /> */}
                 <AboutSection sectionId="about" heading="About Me" />
